@@ -1,0 +1,23 @@
+{
+    "samples" :
+    {
+        "KK_R_1" : ["/path/fastq/KK1R_TKD181002856_HT37HCCXY_L1_1.fq.gz",
+                    "/path/fastq/KK1R_TKD181002856_HT37HCCXY_L1_2.fq.gz"]
+    },
+    "controls" :
+    {
+    },
+    "workdir" : "/path",
+    "type" : "Histone_narrow",
+    "minLength" : 75,
+
+    "species" : "hs",
+    "reference_genome" : "/path/reference/human/GRCh38.fa",
+    "genome_size" : "/path/reference/human/GRCh38.size",
+    "picard" : "/path/tools/picard/picard.jar",
+    "trim_dir" : "/path/tools/Trimmomatic",
+    "adaptor" : "TruSeq3-PE",
+    "rmdup" : False,
+    "threads" : 8
+}
+
